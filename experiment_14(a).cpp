@@ -8,14 +8,14 @@ using namespace std;
 
 class car {
     public:
-    string a ="skoda ";
+    string a ="Toyota";
     void model(){
-        cout<<"SUV"<<endl;
+        cout<<"Fortuner"<<endl;
     }
 };
 class name: public car {
     public:
-    string b ="octavia";
+    string b ="Glanza";
 };
 
 int main(){
@@ -27,5 +27,5 @@ int main(){
 
 
 // OUTPUT:
-//SUV
-//skoda octavia
+//Fortuner
+//Toyota Glanzia
